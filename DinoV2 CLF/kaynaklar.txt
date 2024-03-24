@@ -1,0 +1,5 @@
+https://www.kaggle.com/code/alimustoofaa/dinov2-classification-acc-99
+
+https://purnasaigudikandula.medium.com/dinov2-image-classification-visualization-and-paper-review-745bee52c826
+
+https://machinelearningmastery.com/creating-a-training-loop-for-pytorch-models/
