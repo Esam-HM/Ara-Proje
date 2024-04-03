@@ -1,2 +1,0 @@
-https://www.geeksforgeeks.org/bar-plot-in-matplotlib/
-https://www.geeksforgeeks.org/adding-value-labels-on-a-matplotlib-bar-chart/
