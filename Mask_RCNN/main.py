@@ -1,6 +1,6 @@
 import numpy as np
 import os
-from ourDataset import CustomDataset
+from dataset import CustomDataset
 from tqdm import tqdm
 import torch
 import torchvision
