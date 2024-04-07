@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/64295209/removing-background-around-contour
+https://www.tutorialspoint.com/how-to-mask-an-image-in-opencv-python
+https://www.geeksforgeeks.org/find-and-draw-contours-using-opencv-python/
