@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>My Website</title>
+        <link rel="stylesheet" href="../static/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>   
+<body>
+
+<div class="navBar">
+    <p id="title">Dental Radiograph Error Detection System</p>
+</div>
+
+<div class="mainContainer">
+    <div id="uploadContId" class="uploadCont">
+        <div class="uploadImageContainer">
+            <input type="file" id="input" accept="image/*">
+            <div id="iconCont">
+                <p id="pressTxt">Press Here</p>
+                <button id="uploadBtn" class="fas fa-images"></button>
+                <p id="uploadTxt">To Upload Image</p>
+            </div>
+            <img id="radiograph" src="">
+        </div>
+        <button id="checkBtn">Check Error</button>
+        <div id="progress" class="progress">
+            <div id="loader"></div>
+            <p id="loaderTxt">Processing.....</p>
+        </div>
+    </div>
+
+    <div id="resContId" class="resultCont">
+        <p id="headerRes">Result</p>
+        <div class="resultImgs">
+            <img id="inputImg">
+            <img id="mask">
+            <img id="overlayMask">
+        </div>
+        <p id="res">Predicted Result:</p>
+        <p id="errorType">Error Type: </p>
+        <p id="trueRes">True Results</p>
+        <button id="backBtn">Back</button>
+    </div>
+    <div class="toast" id="toast">Toast notification message</div>
+</div>
+
+<script src="..//static/script.js"></script>
+
+</body>
+</html>
