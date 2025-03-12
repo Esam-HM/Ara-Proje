@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Error Detection</title>
+        <link rel="stylesheet" href="../static/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>   
+<body>
+
+<div class="navBar">
+    <p id="title">Dental Radiography Error Detection System</p>
+</div>
+
+
+<div class="mainContainer">
+    <div id="uploadDirContainerId" class="uploadDirContainer">
+        <input type="file" id="fileInput" multiple webkitdirectory>
+        <div id="fileList" class="scrollable"></div>
+    </div>
+    <div id="uploadContId" class="uploadCont">
+        <div class="uploadImageContainer" ondragover="allowDrop(event)">
+            <div id="iconCont">
+                <p id="uploadTxt">Resim yükleyin</p>
+                <i id="uploadTxt" class="fas fa-images"></i>
+                <p id="uploadTxt">Yada </p>
+                <p id="uploadTxt">Bu Alana Sürükleyip Bırakın</p>
+                <p id="uploadTxt"></p>
+            </div>
+            <img id="radiograph" src="">
+        </div>
+        <input type="file" id="input" accept="image/*">
+        <div class="btnsContainer">
+            <button id="uploadBtn">Resim Yükle</button>
+            
+            <button id="uploadDirBtn">Klasör Yükle</button>
+        </div>
+        <button id="checkBtn">Kontrol Et</button> 
+        <div id="progress" class="progress">
+            <div id="loader"></div>
+            <p id="loaderTxt">İşleniyor.....</p>
+        </div>
+    </div>
+
+    <div id="resContId" class="resultCont">
+        <p id="headerRes">SONUÇ</p>
+        <div class="resultsInnerContainer">
+            <div class="res1">
+                <img id="inputImg">
+                <p id="state1" class="texts">Predicted Result:</p>
+                <p id="errorType1" class="texts">Error Type: </p>
+            </div>
+            <div class="res2">
+                <img id="mask">
+                <p id="state2" class="texts">Predicted Result:</p>
+                <p id="errorType2" class="texts">Error Type: </p>
+            </div>
+            <div class="res3">
+                <img id="overlayMask">
+                <p id="state3" class="texts">Predicted Result:</p>
+                <p id="errorType3" class="texts">Error Type: </p>
+            </div>
+        </div>
+        <p id="trueState">True Results</p>
+
+        <button id="backBtn">Geri</button>
+    </div>
+    <div class="toast" id="toast">Toast notification message</div>
+</div>
+
+<script src="..//static/script.js"></script>
+
+</body>
+</html>
