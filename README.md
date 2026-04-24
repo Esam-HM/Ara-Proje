@@ -7,8 +7,8 @@ This project explores an automated system for detecting errors in panoramic dent
 
 <p align="center">
   <img src="app_imgs/main_page.png" width="300" height="300" />
-  <img src="app_images/result_page.png" width="300" height="300" />
-  <img src="app_images/select_img.png" width="300" height="300" />
+  <img src="app_imgs/result_page.png" width="300" height="300" />
+  <img src="app_imgs/select_img.png" width="300" height="300" />
 </p>
 
 ## Models Link:
